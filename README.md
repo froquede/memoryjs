@@ -1,11 +1,18 @@
 # memory.js
  memory.js is a simple and functional snippet that helps bring productivity to your development
+
  it only has 285 bytes minified (595b not minified) and consists in a kind of facilitator for local storage
+
  The idea is to leave storage in the local storage simple without having to parse and worrying about what kind of variable is being put into memory, making the code simpler and readable
+
  Is it an object? No parse needed
+
  Is it an array?  No parse needed
+
  Tired of typing localStorage.setItem() and localStorage.getItem()?
+
  Just use memory.save() and memory.get()
+
 
 ## Before:
  ```javascript
