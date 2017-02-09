@@ -1,0 +1,19 @@
+{
+  "name": "memory-js",
+  "version": "1.0.0",
+  "description": "memory.js is a simple and functional snippet that helps bring productivity to your development",
+  "main": "memory.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfsdalotto/memoryjs.git"
+  },
+  "author": "roquefsd@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rfsdalotto/memoryjs/issues"
+  },
+  "homepage": "https://github.com/rfsdalotto/memoryjs#readme"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "memory-js",
+  "description": "memory.js is a simple and functional snippet that helps bring productivity to your development",
+  "main": "memory.js",
+  "authors": [
+    "roquefsd@gmail.com"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "localStorage"
+  ],
+  "homepage": "https://github.com/rfsdalotto/memoryjs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
