@@ -1,7 +1,7 @@
 # memory.js
  memory.js is a simple and functional snippet that helps bring productivity to your development
 
- it only has 285 bytes minified (595b not minified) and consists in a kind of facilitator for local storage
+ it only has 332 bytes minified (745b not minified) and consists in a kind of facilitator for local storage
 
  The idea is to leave storage in the local storage simple without having to parse and worrying about what kind of variable is being put into memory, making the code simpler and readable
 
@@ -52,4 +52,4 @@
 ```
 
 - It also works with null objects and others parse problems.
-- It also has the memory.clear() function, which is exactly the same as localStorage.clear()
+- It also has the memory.clear() function, which is exactly the same as localStorage.clear() and memory.remove() function, wich is exactly the same as localStorage.remove().

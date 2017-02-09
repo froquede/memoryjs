@@ -1,24 +1,29 @@
 var memory = {
-    save: function(name, data){
-        if(typeof data == "object"){
+    save: function (name, data) {
+        if (typeof data === 'object') {
             data = JSON.stringify(data);
         }
         localStorage.setItem(name, data);
     },
-    get: function(name){
+    get: function (name) {
         var data = localStorage.getItem(name);
-        try{
+        try {
             data = JSON.parse(data);
             return data;
-        }catch(err){
+        } catch (err) {
             var obj = localStorage.getItem(name);
-            if(obj == 'undefined')
+            if (obj === 'undefined') {
                 return undefined;
-            else
+            }
+            else {
                 return obj;
+            }
         }
     },
-    clear: function(){
+    remove: function (name) {
+        localStorage.removeItem(name);
+    },
+    clear: function () {
         localStorage.clear();
     }
 };
