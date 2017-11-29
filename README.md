@@ -1,5 +1,5 @@
 # memory.js
- memory.js is a simple and functional snippet that helps bring productivity to your development
+ memory.js is a simple snippet that helps bring productivity to your development
 
  it only has 332 bytes minified (745b not minified), don't have dependencies and consists in a kind of facilitator for local storage
 
